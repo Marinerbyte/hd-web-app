@@ -1,5 +1,6 @@
 websocket-client
 requests
 python-dotenv
+supabase
 Flask
 gunicorn

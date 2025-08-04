@@ -44,7 +44,7 @@ class Config:
     PANEL_PASSWORD = os.getenv("PANEL_PASSWORD", "password")
     UPTIME_SECRET_KEY = os.getenv("UPTIME_SECRET_KEY", "change-this-secret-key")
     FLASK_SECRET_KEY = os.getenv("FLASK_SECRET_KEY", "a-very-secret-flask-key")
-    MASTERS_LIST = os.getenv("MASTERS_LIST", "yasin")
+    MASTERS_LIST = os.getenv("MASTERS_LIST", "yasin,amiga")
     LOGIN_URL = "https://api.howdies.app/api/login"
     WS_URL = "wss://app.howdies.app/"
     ROOM_JOIN_DELAY_SECONDS = 2
